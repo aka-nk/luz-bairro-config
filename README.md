@@ -25,3 +25,4 @@ oc kustomize overlays/dev        # ou: kubectl kustomize overlays/dev
 ```
 # luz-bairro-config
 # luz-bairro-config
+# luz-bairro-config
