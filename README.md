@@ -23,3 +23,4 @@ Regras do jogo:
 ```bash
 oc kustomize overlays/dev        # ou: kubectl kustomize overlays/dev
 ```
+# luz-bairro-config
