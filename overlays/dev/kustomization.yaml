@@ -12,7 +12,7 @@ resources:
 images:
   - name: luz-bairro
     newName: image-registry.openshift-image-registry.svc:5000/aka-nk-dev/luz-bairro
-    digest: sha256:5a9deaee4cd81efc01a16b6dee03e7377c9b5c9570bcb8c53cf27119a43599c1
+    digest: sha256:04eb4d779db25e6694a6abc8d9497517afe5e293975fe305eb31f4d237307343
 
 configMapGenerator:
   - name: luz-bairro-config
