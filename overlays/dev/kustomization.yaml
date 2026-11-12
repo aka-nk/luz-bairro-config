@@ -12,11 +12,11 @@ resources:
 images:
   - name: luz-bairro
     newName: image-registry.openshift-image-registry.svc:5000/aka-nk-dev/luz-bairro
-    digest: sha256:04eb4d779db25e6694a6abc8d9497517afe5e293975fe305eb31f4d237307343
+    digest: sha256:915928d3320a834b97909a1bd6eac07fb387af47401a39a51b1f7a1c834ab20b
 
 configMapGenerator:
   - name: luz-bairro-config
     behavior: merge
     literals:
       - APP_ENV=dev
-      - APP_VERSION=0f79081
+      - APP_VERSION=bc94064
