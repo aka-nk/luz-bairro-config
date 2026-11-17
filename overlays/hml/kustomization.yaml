@@ -3,7 +3,7 @@ kind: Kustomization
 
 # Ambiente de homologacao: usado apenas no Incidente D do Exercicio 9.
 # TODO(aluno, Incidente D): troque cicd-hml pelo seu projeto de homologacao ($HML_NS).
-namespace: aka-nk-dev
+namespace: aka-nk-hml
 
 resources:
   - ../../base
@@ -14,7 +14,7 @@ resources:
 images:
   - name: luz-bairro
     newName: image-registry.openshift-image-registry.svc:5000/aka-nk-dev/luz-bairro
-    digest: sha256:0000000000000000000000000000000000000000000000000000000000000000
+    digest: sha256:915928d3320a834b97909a1bd6eac07fb387af47401a39a51b1f7a1c834ab20b
 
 configMapGenerator:
   - name: luz-bairro-config
@@ -22,4 +22,4 @@ configMapGenerator:
     literals:
       - APP_MESSAGE=Portal Luz do Bairro - HOMOLOGACAO
       - APP_ENV=hml
-      - APP_VERSION=0000000
+      - APP_VERSION=bc94064
